@@ -8,7 +8,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server);
 
-// app.use(express.static('build'));
+app.use(express.static('build'));
 
 /* Handles the refresh page error */
 app.use((req, res, next) => {
