@@ -15,3 +15,11 @@ function Client({ username }) {
 }
 
 export default Client;
+
+/*      "start-front": "react-scripts start",
+		"start": "npm run build && npm run server-prod",
+		"build": "react-scripts build",
+		"server-dev": "nodemon server.js",
+		"server-prod": "node server.js",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject" */

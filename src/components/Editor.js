@@ -25,6 +25,7 @@ function Editor({ socketRef, roomId, onCodeChange }) {
 					lineNumbers: true,
 				},
 			);
+
 			/* Handling for change on codemirror and syncing it with other users */
 			editorRef.current.on('change', (instance, changes) => {
 				const { origin } = changes;
